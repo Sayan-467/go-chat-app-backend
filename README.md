@@ -49,16 +49,20 @@ cd chat-app-backend
 ```
 
 ### 2️⃣ Setup .env file
+```bash
 PORT=8080
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=postgres
 DB_PASSWORD=your_password
 DB_NAME=chatappDB
+```
 
 ### 3️⃣ Run the app
+```bash
 go mod tidy
 go run cmd/main.go
+```
 
 ### Expected output:
 🚀 Server running on port: 8080
